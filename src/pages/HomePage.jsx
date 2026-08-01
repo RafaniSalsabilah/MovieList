@@ -197,13 +197,6 @@ const HomePage = () => {
             {renderPopularMovieList()}
           </div>
         </div>
-
-        <div className="footer">
-          <div className="bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-400 to-red-600 w-full h-[3rem] flex justify-center items-center text-white font-semibold">
-            <AiOutlineCopyrightCircle className="mr-[.5rem] mt-[.2rem]" />
-            <span>Credit by Kevin Ginting, Rafani Salsabilah, Dwi Agus S.</span>
-          </div>
-        </div>
       </div>
     </>
   );

@@ -1,4 +1,6 @@
-# FinaleChapter-6
+# MovieList
+Website MovieList berbasis React.js yang diintegrasikan dengan API Filem dari sebuah server. Proyek ini mencakup pengembangan frontend, integrasi REST API, serta implementasi autentikasi menggunakan OAuth Google untuk mendukung proses login pengguna.
+
 Untuk menjalankan aplikasi ini harus dilakukan beberapa instalasi seperti berikut:
 - yarn install
 - install tailwind
