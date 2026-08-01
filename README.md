@@ -12,6 +12,4 @@ Untuk menjalankan aplikasi ini harus dilakukan beberapa instalasi seperti beriku
 - npm install swiper
 - npm install --save @rsuite/icons
 - npm install --save @fortawesome/fontawesome-free
-- npm install --save @fortawesome/react-fontawesome @fortawesome/free-regular-svg-icons
-- Link Vercel : https://finale-chapter-6.vercel.app/
-- Email : rafanisalsa@gmail.com Password : Kukirakita1112
+- npm install --save @fortawesome/react-fontawesome @fortawesome/free-regular-svg-icon
