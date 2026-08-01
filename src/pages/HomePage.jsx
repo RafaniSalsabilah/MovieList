@@ -9,7 +9,7 @@ import PopularMovies from "../assets/components/PopularComponents/PopularMovies"
 import { useDataMovieQueryPopular } from "../services/get-data-movies-popular";
 import { Link, useNavigate } from "react-router-dom";
 import { CookieKeys, CookieStorage } from "../utils/cookies";
-import { useGetDataUser } from "../services/auth/get_me_user";
+// import { useGetDataUser } from "../services/auth/get_me_user";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchMovies } from "../redux/action/authMovie";
 import { fetchGetMe } from "../redux/action/authGetMe";
@@ -36,7 +36,7 @@ const HomePage = () => {
     dispatch(fetchGetMe());
   }, [dispatch]);
 
-  const { data: fetchUser } = useGetDataUser({});
+  // const { data: fetchUser } = useGetDataUser({});
   const { data: fetchPopular, isLoading } = useDataMovieQueryPopular({});
 
   useEffect(() => {
